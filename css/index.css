@@ -27,6 +27,14 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+html, body, div, span, a, h1, h2, h3, h4, h5, h6, p, i {
+    color: rgb(234, 255, 0);
 }
 body {
 	line-height: 1;
@@ -69,10 +77,16 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 h2 {
     font-size: 6rem;
+    
 }
 
 h3 {
